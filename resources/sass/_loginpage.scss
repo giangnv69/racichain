@@ -1,0 +1,60 @@
+#login-page {
+    .form-login {
+        position: absolute;
+        width: 548px;
+        height: 513px;
+        left: calc(50% - 548px/2);
+        top: calc(50% - 513px/2 - 0.5px);
+        background: #FFFFFF;
+        border-radius: 8px;
+    }
+    .form-logo {
+        padding-left: 144px;
+        padding-right: 144px;
+        padding-top: 12px;
+        .form-image {
+            width: 266px;
+            height: 204px;
+            left: calc(50% - 266px/2);
+            top: 12px;
+        }
+    }
+    .form-content {
+        padding-left: 46px;
+        padding-right:46px;
+        .form-label {
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 28px;
+            letter-spacing: 0.0015em;
+            color: #1A1A1A;
+        }
+        .input-login {
+            margin-top: 10px;
+            height: 90px;
+        }
+        .div-submit {
+            margin-top: 25px;
+        }
+        #inputEmail4, #inputPassword4 {
+            width: 456px;
+            height: 40px;
+        }
+    }
+    .div-submit {
+        padding-left: 46px;
+        padding-right:46px;
+        .button-login {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 6px 8px;
+            gap: 10px;
+            width: 456px;
+            height: 36px;
+            background: #E60013;
+            border-radius: 4px;
+            color: white !important;
+        }
+    }
+}

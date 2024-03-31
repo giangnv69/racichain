@@ -1,0 +1,330 @@
+#user-page {
+    margin-top: 10px;
+    margin-left: 10px;
+    overflow-x: hidden;
+    margin-right: 10px;
+    background: white;
+    border-radius: 10px;
+    .text-light{
+        text-align: right;
+    }
+    .button-export-all{
+        color: green;
+    }
+    .button-export-late-checkout{
+        color: red;
+    }
+    .title-page {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 34.449px;
+        line-height: 39px;
+        color: #1A1A1A;
+        margin-bottom: 50px;
+        .newVisitation {
+            top: 0px;
+            left: 0px;
+            text-align: left;
+            background: #0D046F;
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+            border-radius: 7px;
+            color: #FFFFFF;
+            padding: 7px;
+            font-size: 18px;
+            p {
+                font-weight: 400;
+                padding: 0px;
+                margin: 0px;
+                line-height: 20px;
+                font-size: 12px;
+            }
+            .title-noti {
+                font-size: 18px;
+                font-weight: 600;
+            }
+            .contentVisitationReg {
+                width: 152px;
+            }
+            .countVisitationReg {
+                padding: 10px;
+                font-size: 22px;
+            }
+        }
+        .btnHeaderVisitation {
+            position: absolute;
+            top: 45px;
+            right: 0px;
+            svg {
+                cursor: pointer;
+            }
+        }
+    }
+    .search-form {
+        margin-top: 20px;
+        .search-text {
+            width: 30%;
+        }
+        .search-text > input {
+            font-style: italic;
+        }
+        .search-status {
+            width: 10%;
+        }
+        .filter-date {
+            width: 10%;
+        }
+        .search-tower {
+            width: 10%;
+        }
+        .search-floor {
+            width: 10%;
+        }
+        .late-checkout {
+            width: 15%;
+            color: red;
+            font-weight: bold;
+            .ant-checkbox-checked .ant-checkbox-inner {
+                background-color: red;
+                border-color: red;
+            }
+        }
+        .text-refresh {
+            margin-left: 8px !important;
+            font-style: normal;
+            font-weight: 400 !important;
+            font-size: 15px !important;
+            color: #5E5959 !important;
+        }
+        .export {
+            right: 0;
+            .button-export {
+                color: green;
+            }
+        }
+        .ant-select-selection-selected-value {
+            font-weight: bold;
+        }
+        .button_add {
+            background: #0D7042;
+            border-radius: 4.73395px;
+            i, span {
+                color: #ffffff !important;
+            }
+        }
+    }
+    .table-visitation {
+        margin-top: 10px;
+        .text-information {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 28px;
+            letter-spacing: 0.0015em;
+            color: #494B4A;
+        }
+        .action {
+            text-align: center;
+        }
+        .status-late {
+            background-color: #E60013;
+            text-align: center;
+            color: white;
+        }
+        .phone-number {
+            text-align: center;
+        }
+        .custom-name {
+            color: #0D046F;
+            text-decoration-line: underline;
+            font-weight: 500;
+        }
+        .ant-table-thead > tr >th{
+            font-family: 'Roboto';
+            font-weight: 500;
+            font-size: 16px;
+            color: white;
+            background: #E60013 !important;
+        }
+        .ant-table-pagination {
+            margin-right: 16px !important;
+        }
+        .ant-pagination-item-link {
+            align-items: center;
+            display: grid;
+        }
+        .button-edit {
+            color: #667080;
+            cursor: pointer;
+        }
+        .button-delete {
+            color: #E60013;
+            cursor: pointer;
+        }
+        .button-detail {
+            color: black !important;
+            cursor: pointer;
+            font-size: 25px!important;
+        }
+        .btn-detail-company{
+            cursor: pointer;
+            color: black;
+            font-weight: 900;
+        }
+        .pagination-visitation {
+            margin-top: 10px;
+            text-align: end;
+        }
+    }
+    .text-align-left{
+        text-align: left!important;
+    }
+    .black-list{
+        color: red!important;
+        font-size: 25px!important;
+    }
+}
+
+.ant-modal-title {
+    font-weight: bold;
+}
+.button-back {
+    border: none !important;
+    font-weight: bold;
+    color: black;
+}
+.button-back:hover {
+   cursor: pointer;
+}
+.button-continue {
+    border: none !important;
+    color: #0D7042;
+    font-weight: bold;
+}
+.button-continue:hover {
+    color: #0D7042;
+}
+.icon-check-sweetalert {
+    color: #E60013;
+}
+.note-success {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #E60013;
+}
+.note-continue {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #4D4D4D;
+}
+.confirm-action-class {
+    width: 100%;
+    .confirm-button-class {
+        width: 92%;
+    }
+}
+#checkinModal {
+    top: 25%;
+    left: 29%;
+    .modal-content {
+        background: #BABABA !important;
+    }
+    .modal-header {
+        border-bottom: none;
+        #labelModalCheckin {
+            width: 100%;
+            text-align: center;
+            text-decoration: underline;
+        }
+    }
+    .modal-body {
+        height: 400px;
+        overflow-y: scroll;
+        .right-content {
+            flex-direction: column;
+            align-items: center;
+            gap: 19.73px;
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+            height: fit-content;
+            .width-label {
+                width: 40%;
+            }
+            .width-card {
+                width: 60%;
+            }
+            .title-info {
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: bold;
+                font-size: 14px;
+                line-height: 35px;
+                text-decoration-line: underline;
+                text-align: center;
+            }
+            .input-content {
+                margin-top: 10px;
+                .cardNumber {
+                    width: 100%;
+                }
+            }
+            .input-content > span {
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: bold;
+                font-size: 14px;
+                line-height: 35px;
+                color: #1A1A1A;
+            }
+            .phoneNumber {
+                width: 60%;
+                float: right;
+            }
+            .button-checkin {
+                color: white;
+                margin-left: 10px;
+                background: #0D7042;
+                border-radius: 4px;
+                .text-checkin {
+                    margin-left: 10px;
+                }
+            }
+            .button-checkout {
+                color: white;
+                margin-left: 10px;
+                background: #FF9400;
+                border-radius: 4px;
+                .text-checkout {
+                    margin-left: 10px;
+                }
+            }
+            .input-content > span {
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: bold;
+                font-size: 14px;
+                line-height: 35px;
+                color: #1A1A1A;
+            }
+            .phoneNumber {
+                width: 70%;
+                float: right;
+            }
+            .image-identify {
+                width: 100%;
+                margin: auto;
+            }
+        }
+    }
+}

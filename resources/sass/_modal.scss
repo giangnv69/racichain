@@ -1,0 +1,39 @@
+.modalCustom {
+  background: rgba(0,0,0,.65);
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9;
+}
+.modalCustom .contentModal {
+  background: #f0f0f0;
+  border-radius: 16.148px;
+  box-shadow: 0 4px 4px rgba(0,0,0,.25);
+  height: 80%;
+  left: 10%;
+  margin-top: 5%;
+  max-height: 480px;
+  padding: 15px 40px;
+  position: absolute;
+  top: calc(60% - 50vh + .5px);
+  width: 50%;
+}
+.modalCustom .content, .modalCustom .headerModal {
+  color: #1a1a1a;
+  font-family: Roboto;
+  font-style: normal;
+  line-height: 39px;
+}
+.modalCustom .headerModal {
+  font-size: 34.449px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  text-align: center;
+  width: 100%;
+}
+.modalCustom .content {
+  font-size: 14px;
+  font-weight: 400;
+
+}

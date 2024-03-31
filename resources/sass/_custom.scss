@@ -1,0 +1,24 @@
+#mainPage {
+    .mainContent {
+        .table-list {
+            .ant-pagination {
+                .ant-pagination-next {
+                    display: inline-grid;
+                    justify-content: end;
+                }
+                .ant-pagination-item-link {
+                    display: flex;
+                    align-items: center;
+                }
+            }
+        }
+        .display-mode {
+            .ant-select {
+                .ant-select-selector {
+                    height: 2.5rem;
+                    align-items: center;
+                }
+            }
+        }
+    }
+}

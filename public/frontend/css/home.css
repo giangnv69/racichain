@@ -1,0 +1,849 @@
+html {
+    scroll-behavior: smooth;
+    font-size: calc((16 / 1920)* 100vw);
+}
+.mobile {
+    display: none;
+}
+@media only screen and (max-width: 900px) {
+    .pc {
+        display: none;
+    }
+    .mobile {
+        display: block;
+        color: #fff;
+    }
+    html {
+        scroll-behavior: smooth;
+        font-size: calc((16 / 320)* 100vw);
+    }
+}
+
+.header {
+    color: rgba(255, 255, 255, 0.51);
+}
+.btnConnect {
+    border-radius: 1.46875rem;
+    border: 2px solid #EC1132;
+    box-shadow: 0px 16px 30px 0px #014678;
+}
+.connect-wallet {
+
+}
+.connect-wallet.active {
+    width: 12.625rem;
+    border-radius: 1.46875rem;
+    background: #EC1132;
+    box-shadow: 0px 16px 30px 0px #014678;
+}
+
+.section1 {
+
+}
+.section1 .tit{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 9rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.section1 .desc{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.25rem; /* 240% */
+    letter-spacing: 0.15938rem;
+    margin-top: 2.12rem;
+}
+.section1 .btn{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: linear-gradient(90deg, #EC3B75 0%, #AF204C 100%);
+    filter: drop-shadow(0px 16px 30px #003861);
+    padding: 0.94rem 3.87rem;
+    width: max-content;
+    border-radius: 1.5rem;
+    margin-top: 4rem;
+    cursor: pointer;
+}
+.section2{
+
+}
+.section2 .smart_contract{
+
+}
+.section2 .smart_contract .name{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.section2 .smart_contract .btn{
+    color: #FFF;
+    font-family: Arial;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 1.46875rem;
+    background: linear-gradient(90deg, #EC3B75 0%, #AF204C 100%);
+
+    filter: drop-shadow(0px 16px 30px #003861);
+    box-shadow: 0px 16px 30px 0px #003861;
+    padding: 1rem 2.19rem;
+    width: max-content;
+}
+.section2 .about{
+
+}
+.section2 .about .tit{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 3.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.section2 .about .desc{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 132.8%; /* 1.494rem */
+}
+.section3 {
+
+}
+.section3 .head{
+
+}
+.section3 .head .tit{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 3.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.section3 .head .btn{
+    color: #FFF;
+    font-family: Arial;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 1.46875rem;
+    background: linear-gradient(90deg, #EC3B75 0%, #AF204C 100%);
+
+    filter: drop-shadow(0px 16px 30px #003861);
+    box-shadow: 0px 16px 30px 0px #003861;
+    padding: 1rem 3.87rem;
+    width: max-content;
+    height: max-content;
+}
+.section3 .list-works {
+    border-radius: 3.125rem;
+    background: rgba(43, 101, 150, 0.27);
+    backdrop-filter: blur(25px);
+}
+.section3 .list-works .item{
+    margin-top: 5.67rem;
+}
+.section3 .list-works .item .number{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 1.6875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.section3 .list-works .item .number .absolute{
+    width: 8rem;
+    height: 8.4rem;
+    top: -0.3rem;
+    left: 0.3rem;
+}
+.section3 .list-works .item .number .select{
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+    background: radial-gradient(530.24% 219.84% at 57.14% 50.65%, #ED3C76 0%, #CF2E61 38.2%, #B1204D 100%);
+    filter: drop-shadow(0px 6px 30px #003861);
+}
+.section3 .list-works .item .number .select-num2{
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+    background: linear-gradient(315deg, #20B18D 12.53%, #66E2A9 89.89%);
+}
+.section3 .list-works .item .number .select-num3{
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+    background: radial-gradient(986.43% 408.5% at -98.41% -58.25%, #00C3FD 0%, #0194FE 24.23%, #012B7F 78.95%);
+}
+.section3 .list-works .item .tit{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 1.89rem;
+}
+.section3 .list-works .item .desc{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 136%; /* 1.36rem */
+    margin-top: 0.24rem;
+}
+
+.section4 {
+
+}
+
+.section4 .text-token{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 4rem; /* 1.13625rem */
+}
+.section4 .tit{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 6.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.section4 .list-advantages{
+
+}
+.section4 .list-advantages .item{
+
+}
+.section4 .list-advantages .item .name{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.section4 .list-advantages .item .desc{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 136%; /* 1.36rem */
+}
+.section4 .btn{
+    color: #FFF;
+    font-family: Arial;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 1.46875rem;
+    background: linear-gradient(90deg, #EC3B75 0%, #AF204C 100%);
+
+    filter: drop-shadow(0px 16px 30px #003861);
+    box-shadow: 0px 16px 30px 0px #003861;
+    width: max-content;
+    padding: 1rem 2.87rem;
+}
+
+.section5 {
+
+}
+.section5 .tit{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 3.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.section5 .info{
+
+}
+.section5 .info .name{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 2.1875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.section5 .info .desc{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 101%; /* 1.13625rem */
+}
+.section5 .list-token{
+
+}
+.section5 .list-token .token{
+
+}
+.section5 .list-token .token .tit2{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 1.125rem !important;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 10.3125rem;
+    height: 2.9375rem;
+    text-align: center;
+    padding: 0.75rem;
+    border-radius: 1.46875rem;
+    border: 1px solid #3DBDF1;
+    background: #102644;
+    box-shadow: 0px 16px 30px 0px #021E32;
+}
+.section5 .list-token .token img{
+    max-width: max-content;
+}
+.section6 .tit{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 2.1875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    padding: 6.25rem 0 0 5.06rem;
+}
+.section7 .tit{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 3.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.section7 .listteam{
+
+}
+.section7 .listteam .item{
+    width: 22.1875rem;
+    height: 27.25rem;
+    margin-left: 2.5rem;
+}
+.section7 .slideOur .item{
+    width: 22.1875rem;
+    margin-left: 2.5rem;
+}
+.section7 .listteam .item .info{
+
+}
+.section7 .listteam .item .info .tit{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 1.5rem;
+}
+.section7 .listteam .item .info .job{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.4;
+}
+.section8 {
+    color: #FFF;
+    font-family: Arial;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.section8 .btn{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 1.46875rem;
+    background: linear-gradient(66deg, #B40E39 25.98%, #B40E39 65.48%);
+    box-shadow: 0px 16px 30px 0px #003861;
+    padding: 0.94rem 2.12rem;
+    width: max-content;
+}
+.section9 {
+
+}
+.section9 .tit{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 3.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.section9 .listBuy{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 136%; /* 1.19rem */
+}
+.section9 .name{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 2.625rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.section9 .desc{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 148.8%; /* 1.674rem */
+}
+.Mobile {
+
+}
+.Mobile .header .langue {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.sectionM1 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+.sectionM2 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0.75rem; /* 100% */
+    letter-spacing: 0.1275rem;
+}
+.sectionM3 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: linear-gradient(66deg, #00C3FD 25.98%, #0194FE 65.48%);
+    filter: drop-shadow(0px 16px 30px #003861);
+    padding: 0.9rem 3.7rem;
+    border-radius: 1rem;
+    width: max-content;
+    margin: auto;
+}
+.sectionM4 .tit {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.sectionM4 .btn {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: linear-gradient(66deg, #00C3FD 25.98%, #0194FE 65.48%);
+    filter: drop-shadow(0px 16px 30px #003861);
+    padding: 0.9rem 3.7rem;
+    border-radius: 1rem;
+    width: max-content;
+}
+.sectionM5  {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.sectionM6  {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 136.3%; /* 1.10744rem */
+}
+.sectionM6 span {
+    color: #0194FE;
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.125rem; /* 128.571% */
+    text-transform: uppercase;
+}
+.sectionM7 {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.sectionM8 {
+    border-radius: 3.125rem;
+    background: rgba(43, 101, 150, 0.27);
+    backdrop-filter: blur(25px);
+}
+.sectionM8 .name{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.sectionM8 .desc{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 136.3%; /* 1.02225rem */
+}
+.sectionM9 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: linear-gradient(66deg, #00C3FD 25.98%, #0194FE 65.48%);
+    filter: drop-shadow(0px 16px 30px #003861);
+    padding: 0.9rem 3.7rem;
+    border-radius: 1rem;
+    width: max-content;
+    margin: auto;
+}
+
+.sectionM11 .name{
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    color: #FFF;
+    margin-top: -1rem;
+    margin-bottom: 0.69rem;
+}
+
+.sectionM11 .desc{
+    font-size: 0.875rem;
+    color: #FFF;
+    text-align: center;
+}
+.sectionM12 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: linear-gradient(66deg, #00C3FD 25.98%, #0194FE 65.48%);
+    filter: drop-shadow(0px 16px 30px #003861);
+    padding: 0.9rem 3.7rem;
+    border-radius: 1rem;
+    width: max-content;
+    margin: auto;
+    margin-top: 0.69rem;
+}
+.sectionM18 {
+    border-radius: 2.5rem;
+    background: linear-gradient(269deg, rgba(43, 101, 150, 0.27) -19.9%, rgba(43, 101, 150, 0.00) 85.41%);
+    backdrop-filter: blur(25px);
+}
+.sectionM20 .slick-slider{
+    margin-bottom: 0;
+}
+.sectionM20 .listteamMobile{
+
+}
+.sectionM20 .listteamMobile .item{
+    width: 12.75rem;
+    height: 23.625rem;
+    margin: 0 1rem;
+}
+.sectionM20 .listteamMobile .item .info{
+
+}
+.sectionM20 .listteamMobile .item .info .tit{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 0.5rem;
+}
+.sectionM20 .listteamMobile .item .info .job{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.4;
+}
+.sectionM22 {
+    padding: 0.5rem;
+    color: #000618;
+    font-family: Inter;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 100%;
+    border-radius: 0.5rem;
+    background: linear-gradient(90deg, #000618 -22.86%, #00C3FD 51.07%, #000618 118.91%);
+}
+.menuMobile .listConnect{
+    border-radius: 1.4375rem;
+    border: 2px solid #0194FE;
+    box-shadow: 0px 16px 30px 0px #014678;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    width: 11.5rem;
+}
+.menuMobile .listConnect .connected{
+    padding: 0.87rem;
+}
+.menuMobile .listConnect .connect{
+    padding: 0.87rem;
+    border-radius: 1.4375rem;
+    background: linear-gradient(66deg, #00C3FD 25.98%, #0194FE 65.48%);
+    filter: drop-shadow(0px 16px 30px #003861);
+}
+.listQA {
+
+}
+.listQA .item{
+    position: relative;
+    margin-top: 1rem;
+}
+.listQA .item .name{
+    color: #EE3C76;
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.03rem;
+}
+.listQA .item .desc{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: -0.02438rem;
+    padding-left: 1.31rem;
+    width: 95%;
+}
+.listQA .item .btnShow{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.listPackage {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3.75rem;
+}
+.listPackage .item{
+    width: 22.5rem;
+    height: 25rem;
+
+}
+.listPackage .item .name{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 1.4375rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+    margin-top: 16.9rem;
+}
+.listPackage .item .price{
+    color: #EE3C76;
+    text-align: center;
+    font-family: Inter;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 136%; /* 2.72rem */
+    margin-top: 1.19rem;
+}
+.sendTrans {
+    margin-top: 14.13rem;
+}
+.sendTrans .tit{
+    color: #E53871;
+    font-family: Inter;
+    font-size: 3.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    text-align: center;
+}
+.sendTrans .time{
+    color: #E53871;
+    font-family: Inter;
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 30.375rem;
+    height: 5.625rem;
+    padding-top: 1rem;
+}
+
+.fromTo {
+    margin: auto;
+    margin-top: 4.31rem;
+    width: 55rem;
+    display: flex;
+    justify-content: space-between;
+}
+.fromTo .from{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.fromTo .from .name{
+
+}
+.fromTo .from .input{
+    margin-top: 0.66rem;
+    width: 20.5625rem;
+    height: 3.25rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.75rem 1.44rem;
+    align-items: center;
+}
+.fromTo .from .input .total{
+
+}
+.fromTo .from .input img{
+    width: 1.75rem;
+    height: 1.75rem;
+}
+.fromTo .balance{
+    margin-top: 0.88rem;
+}
+.btnList{
+    margin: auto;
+    margin-top: 6.94rem;
+    width: 39.3125rem;
+}
+.btnList .btnInvite{
+    color: #EA3B74;
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    display: flex;
+    justify-content: space-between;
+}
+.btnList .btnBuy{
+    margin-top: 1.45rem;
+}
+.btnList .btnBuy div{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 1.46875rem;
+    background: linear-gradient(90deg, #EE3C76 0%, #AC1E49 100%);
+    box-shadow: 0px 16px 30px 0px #014678;
+    width: 100%;
+    padding: 1.26rem;
+    text-align: center;
+}
+.byRaci {
+    background: linear-gradient(90deg, #EE3C76 0%, #AC1E49 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
