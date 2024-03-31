@@ -466,7 +466,7 @@
             } else {
                 // console.error('MetaMask is not installed!');
             }
-        })
+        }, 300)
         // Set the date we're counting down to
         var countDownDate = new Date("May 5, 2024 15:37:25").getTime();
 

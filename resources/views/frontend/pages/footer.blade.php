@@ -92,7 +92,7 @@
         } else {
             // console.error('MetaMask is not installed!');
         }
-    })
+    },300)
 </script>
 </body>
 </html>
