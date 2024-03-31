@@ -1,6 +1,16 @@
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
 
 <script>
+    <?php
+    if (@$_GET['move']) {
+    ?>
+    $('html,body').animate({
+            scrollTop: $(".<?php echo $_GET['move']?>").offset().top},
+        'slow');
+    <?php
+    }
+    ?>
+
     const connectEthButton = document.querySelector(".connectEthButton");
 
     connectEthButton.addEventListener("click", async () => {
@@ -10,13 +20,16 @@
 
     const connectEthButtonFooter = document.querySelector(".connectEthButtonFooter");
 
-    connectEthButtonFooter.addEventListener("click", async () => {
-        accounts = await window.ethereum // Or window.ethereum if you don't support EIP-6963.
-            .request({ method: "eth_requestAccounts" });
-        Toastify({
-            text: "Coppied link invite success!",
-        }).showToast();
-    });
+    if (connectEthButtonFooter) {
+        connectEthButtonFooter.addEventListener("click", async () => {
+            accounts = await window.ethereum // Or window.ethereum if you don't support EIP-6963.
+                .request({ method: "eth_requestAccounts" });
+            Toastify({
+                text: "Coppied link invite success!",
+            }).showToast();
+        });
+    }
+
     function checkNetWOrk() {
         // Kiểm tra xem MetaMask đã được kích hoạt và có sẵn không
         if (window.ethereum) {

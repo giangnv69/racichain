@@ -5,10 +5,10 @@
         <div class="flex gap-[2.25rem] items-center">
             <img class="cursor-pointer" onclick="location.href='{{URL::to('/')}}';" src="{{ __BASE_URL__ }}/img/new/logo.png" alt="">
             <div class="flex gap-[2.94rem] items-center">
-                <div class="text-white cursor-pointer">Why $RACI</div>
-                <div class="text-white cursor-pointer text-opacity-50">Trade</div>
-                <div class="text-white cursor-pointer text-opacity-50">Tokenomics</div>
-                <div class="text-white cursor-pointer text-opacity-50">FAQs</div>
+                <div class="text-white cursor-pointer" onclick="location.href='{{URL::to('/')}}?move=why-raci';">Why $RACI</div>
+                <div class="text-white cursor-pointer text-opacity-50" onclick="location.href='{{URL::to('/')}}';">Trade</div>
+                <div class="text-white cursor-pointer text-opacity-50" onclick="location.href='{{URL::to('/')}}?move=tokenomic';">Tokenomics</div>
+                <div class="text-white cursor-pointer text-opacity-50" onclick="location.href='{{URL::to('/')}}?move=faq';">FAQs</div>
                 <div class="font-bold cursor-pointer bg-clip-text byRaci" onclick="location.href='{{URL::to('/')}}/buy-now';">BUY $RACI</div>
             </div>
         </div>

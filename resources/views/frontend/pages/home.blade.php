@@ -58,7 +58,7 @@
             </div>
             <!-- TradingView Widget END -->
         </div>
-        <div class="section3 w-[71.3125rem] m-auto mt-[19.12rem]">
+        <div class="section3 w-[71.3125rem] m-auto mt-[19.12rem] why-raci">
             <div class="head flex justify-center" data-aos="fade-up">
                 <div class="tit">
                     What Sets Us Apart?
@@ -106,7 +106,7 @@
                 </div>
             </div>
         </div>
-        <div class="section4 relative flex flex-col w-full items-center m-auto mt-[9rem]">
+        <div class="section4 relative flex flex-col w-full items-center m-auto mt-[9rem] tokenomic">
             <div class="absolute top-[6rem] left-0 w-full px-[4rem]" data-aos="fade-up">
                 <img class="w-full" src="{{ __BASE_URL__ }}/img/new/bgtokenomic.png" alt="">
             </div>
@@ -279,7 +279,7 @@
         <div class="mt-[12.16rem] text-[3.25rem] font-bold text-white text-center" data-aos="fade-up">
             Frequently Asked Questions
         </div>
-        <div class="listQA mt-[1.5rem] w-[47.0625rem] m-auto">
+        <div class="listQA mt-[1.5rem] w-[47.0625rem] m-auto faq">
             <div class="item" data-aos="fade-up">
                 <div class="name">
                     What distinguishes RaciChain from other trading platforms?
