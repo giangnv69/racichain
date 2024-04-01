@@ -414,7 +414,7 @@
                 // Tạo một đối tượng hợp đồng từ địa chỉ và ABI của token
                 const tokenContract = new web3.eth.Contract(tokenABI, tokenContractAddress);
 
-                console.log(tokenContract.balanceOf({ filter: { to: accountAddress } }));
+                console.log(1111,tokenContract,  tokenContract.balanceOf({ filter: { to: accountAddress } }));
                 // Sử dụng phương thức balanceOf của hợp đồng token để lấy số dư của token
                 tokenContract.balanceOf({ filter: { to: accountAddress } })
                     .on('data', event => {
