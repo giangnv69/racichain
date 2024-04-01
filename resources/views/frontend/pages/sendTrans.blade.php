@@ -418,14 +418,13 @@
                 try {
                     // Gọi phương thức balanceOf của hợp đồng token và đợi kết quả
                     const balance = await tokenContract.methods.balanceOf(accountAddress).call();
-                    console.log('Token balance:', balance);
-                    document.getElementById('tokenBalance').textContent = balance;
+                    document.getElementById('tokenBalance').textContent = balance / 1000000000000000000;
                 } catch (error) {
-                    console.error('Error:', error);
+                    // console.error('Error:', error);
                 }
 
             } else {
-                console.error('MetaMask is not installed!');
+                // console.error('MetaMask is not installed!');
             }
         }
         setInterval(async () => {
