@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="965145d7-a342-4ce9-80f7-98b3cdb1e8aa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/frontend/pages/sendTrans.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/pages/sendTrans.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -81,8 +80,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/frontend/pages/sendTrans.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="537">
-              <caret line="418" column="37" selection-start-line="418" selection-start-column="37" selection-end-line="418" selection-end-column="37" />
+            <state relative-caret-position="505">
+              <caret line="460" column="46" lean-forward="true" selection-start-line="460" selection-start-column="46" selection-end-line="460" selection-end-column="46" />
               <folding>
                 <element signature="e#2054#2079#0#HTML" expanded="true" />
                 <element signature="e#5025#18503#0#HTML" />
@@ -440,12 +439,12 @@
       <workItem from="1711769988947" duration="1570000" />
       <workItem from="1711876468460" duration="14311000" />
       <workItem from="1711906709878" duration="959000" />
-      <workItem from="1711941860941" duration="2779000" />
+      <workItem from="1711941860941" duration="2819000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="165927000" />
+    <option name="totallyTimeSpent" value="165967000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="25" width="1920" height="1055" extended-state="6" />
@@ -756,8 +755,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/frontend/pages/sendTrans.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="537">
-          <caret line="418" column="37" selection-start-line="418" selection-start-column="37" selection-end-line="418" selection-end-column="37" />
+        <state relative-caret-position="505">
+          <caret line="460" column="46" lean-forward="true" selection-start-line="460" selection-start-column="46" selection-end-line="460" selection-end-column="46" />
           <folding>
             <element signature="e#2054#2079#0#HTML" expanded="true" />
             <element signature="e#5025#18503#0#HTML" />

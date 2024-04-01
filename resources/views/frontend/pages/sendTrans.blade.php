@@ -458,7 +458,7 @@
 
                         // Hiển thị thông tin tài khoản và số dư
                         document.getElementById('balanceBNB').textContent = `${web3.utils.fromWei(balance, 'ether')}`;
-                        // getBalaceRaci(account)
+                        getBalaceRaci(account)
                     } catch (error) {
                         // console.error('Error fetching balance:', error);
                     }
