@@ -37,7 +37,7 @@
                     </div>
                     <div class="input" style="background: url('public/frontend/img/new/time.png');background-repeat: no-repeat; background-size: 100% 100%;">
                         <div class="total">
-                            <input type="text" name="bnb" value="{{ @$_GET['bnb'] }}">
+                            <input type="text" style="background: black" name="bnb" value="{{ @$_GET['bnb'] }}">
                         </div>
                         <img src="public/frontend/img/new/iconBNB.png" alt="">
                     </div>
