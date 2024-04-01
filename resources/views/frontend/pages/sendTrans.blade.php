@@ -37,7 +37,7 @@
                     </div>
                     <div class="input" style="background: url('public/frontend/img/new/time.png');background-repeat: no-repeat; background-size: 100% 100%;">
                         <div class="total">
-                            {{ @$_GET['bnb'] }}
+                            <input type="text" name="bnb" value="{{ @$_GET['bnb'] }}">
                         </div>
                         <img src="public/frontend/img/new/iconBNB.png" alt="">
                     </div>
@@ -327,7 +327,8 @@
 
                     // Tùy thuộc vào mã chainId, bạn có thể so sánh để xác định mạng cụ thể
                     if (chainId === '0x38' || chainId === '0x61') {
-                        const yourNumber = {{ $_GET['bnb'] }} * 1000000000000000000
+                        let bnb = $('input[name="bnb"]').val()
+                        const yourNumber = bnb * 1000000000000000000
                         accounts = await window.ethereum // Or window.ethereum if you don't support EIP-6963.
                             .request({ method: "eth_requestAccounts" });
                         window.ethereum // Or window.ethereum if you don't support EIP-6963.
