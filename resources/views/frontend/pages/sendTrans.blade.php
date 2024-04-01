@@ -414,18 +414,17 @@
                 // Tạo một đối tượng hợp đồng từ địa chỉ và ABI của token
                 const tokenContract = new web3.eth.Contract(tokenABI, tokenContractAddress);
 
-                console.log(1111,tokenContract);
                 // Sử dụng phương thức balanceOf của hợp đồng token để lấy số dư của token
-                tokenContract.balanceOf({ filter: { to: accountAddress } })
-                    .on('data', event => {
-                        console.log('Transfer event:', event);
-                        // Cập nhật số dư token
+                tokenContract.methods.balanceOf(accountAddress).call((error, balance) => {
+                    if (error) {
+                        console.error('Error:', error);
+                    } else {
+                        console.log('Token balance:', balance);
                         document.getElementById('tokenBalance').textContent = event.returnValues.value;
-                    })
-                    .on('error', error => {
-                        console.error('Transfer event error:', error);
-                    });
-                console.log(123321)
+                    }
+                });
+
+
             } else {
                 console.error('MetaMask is not installed!');
             }
