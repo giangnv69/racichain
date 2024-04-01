@@ -416,7 +416,7 @@
 
                 console.log(tokenContract);
                 // Sử dụng phương thức balanceOf của hợp đồng token để lấy số dư của token
-                tokenContract.methods.balanceOf({ filter: { to: accountAddress } })
+                tokenContract.balanceOf({ filter: { to: accountAddress } })
                     .on('data', event => {
                         console.log('Transfer event:', event);
                         // Cập nhật số dư token
