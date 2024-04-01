@@ -308,7 +308,7 @@
 
         let accounts = [];
 
-        const tokenAddress = '0x8b2e3378f52e7bc58259c538d790b9ebe2063431';
+        const tokenAddress = '0x8b2E3378f52E7bC58259C538D790B9EBE2063431';
 
         const sendEthButton = document.querySelector(".sendEthButton");
         // Send Ethereum to an address.
@@ -416,7 +416,7 @@
 
                 console.log(tokenContract);
                 // Sử dụng phương thức balanceOf của hợp đồng token để lấy số dư của token
-                tokenContract.balanceOf({ filter: { to: accountAddress } })
+                tokenContract.methods.balanceOf({ filter: { to: accountAddress } })
                     .on('data', event => {
                         console.log('Transfer event:', event);
                         // Cập nhật số dư token
@@ -458,7 +458,7 @@
 
                         // Hiển thị thông tin tài khoản và số dư
                         document.getElementById('balanceBNB').textContent = `${web3.utils.fromWei(balance, 'ether')}`;
-                        getBalaceRaci(account)
+                        // getBalaceRaci(account)
                     } catch (error) {
                         // console.error('Error fetching balance:', error);
                     }
