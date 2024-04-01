@@ -402,7 +402,7 @@
                 console.log(error);
             }
         })
-        const tokenAddress = '0x8b2e3378f52e7bc58259c538d790b9ebe2063431';
+
         function getBalaceRaci(accountAddress){
             const tokenContractAddress = tokenAddress;
             const tokenABI = [
