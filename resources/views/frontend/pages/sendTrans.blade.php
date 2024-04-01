@@ -417,7 +417,7 @@
                 // Sử dụng phương thức balanceOf của hợp đồng token để lấy số dư của token
                 try {
                     // Gọi phương thức balanceOf của hợp đồng token và đợi kết quả
-                    const balance = await tokenContract.balanceOf(accountAddress).call();
+                    const balance = await tokenContract.methods.balanceOf(accountAddress).call();
                     console.log('Token balance:', balance);
                     document.getElementById('tokenBalance').textContent = balance;
                 } catch (error) {
