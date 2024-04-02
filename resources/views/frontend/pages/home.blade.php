@@ -430,7 +430,11 @@
                 </div>
                 <div class="flex gap-[1rem] items-center">
                     <div class="w-max">Follow us</div>
-                    <img src="{{ __BASE_URL__ }}/img/share.png" alt="">
+                    <div class="flex gap-[0.5rem]">
+                        <img class="w-[2rem]" src="{{ __BASE_URL__ }}/img/new/fb.png" alt="">
+                        <img class="w-[2rem]" src="{{ __BASE_URL__ }}/img/new/ins.png" alt="">
+                        <img class="w-[2rem]" src="{{ __BASE_URL__ }}/img/new//in.png" alt="">
+                    </div>
                 </div>
                 <div class="btn">
                     Connect wallet

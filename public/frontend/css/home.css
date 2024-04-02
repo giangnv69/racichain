@@ -668,14 +668,14 @@ html {
     background:  linear-gradient(66deg, #EE3C76 25.98%, #AD1F4A 65.48%);
     filter: drop-shadow(0px 16px 30px #003861);
 }
-.listQ {
+.listQA {
 
 }
-.listQ .item{
+.listQA .item{
     position: relative;
     margin-top: 1rem;
 }
-.listQ .item .name{
+.listQA .item .name{
     color: #EE3C76;
     font-family: Inter;
     font-size: 1.5rem;
@@ -684,7 +684,7 @@ html {
     line-height: normal;
     letter-spacing: 0.03rem;
 }
-.listQ .item .desc{
+.listQA .item .desc{
     color: #FFF;
     font-family: Inter;
     font-size: 0.8125rem;
@@ -695,7 +695,7 @@ html {
     padding-left: 1.31rem;
     width: 95%;
 }
-.listQ .item .btnShow{
+.listQA .item .btnShow{
     position: absolute;
     top: 0;
     right: 0;
