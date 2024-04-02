@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=1920, maximum-scale=1.0">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="shortcut icon" type="image/png">
     <meta property="og:image" content="{{ __BASE_URL__ }}/img/logo.jpg">
     {{--<meta property="og:image:type" content="image/png">--}}

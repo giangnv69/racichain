@@ -73,6 +73,21 @@ html {
     margin-top: 4rem;
     cursor: pointer;
 }
+.btnBuyNow{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: linear-gradient(90deg, #EC3B75 0%, #AF204C 100%);
+    filter: drop-shadow(0px 16px 30px #003861);
+    padding: 0.88rem 3.88rem;
+    width: max-content;
+    border-radius: 1.5rem;
+    margin-top: 4rem;
+    cursor: pointer;
+}
 .section2{
 
 }
@@ -223,57 +238,19 @@ html {
     color: #FFF;
     text-align: center;
     font-family: Inter;
-    font-size: 1.125rem;
+    font-size: 0.625rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 4rem; /* 1.13625rem */
+    line-height: 101%; /* 0.63125rem */
 }
 .section4 .tit{
-    color: #FFF;
+    color: #E93A73;
     font-family: Inter;
-    font-size: 6.25rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-}
-.section4 .list-advantages{
-
-}
-.section4 .list-advantages .item{
-
-}
-.section4 .list-advantages .item .name{
-    color: #FFF;
-    font-family: Inter;
-    font-size: 1.5rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    text-transform: uppercase;
-}
-.section4 .list-advantages .item .desc{
-    color: #FFF;
-    text-align: center;
-    font-family: Inter;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 136%; /* 1.36rem */
-}
-.section4 .btn{
-    color: #FFF;
-    font-family: Arial;
-    font-size: 1rem;
+    font-size: 0.9375rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    border-radius: 1.46875rem;
-    background: linear-gradient(90deg, #EC3B75 0%, #AF204C 100%);
-
-    filter: drop-shadow(0px 16px 30px #003861);
-    box-shadow: 0px 16px 30px 0px #003861;
-    width: max-content;
-    padding: 1rem 2.87rem;
+    text-transform: uppercase;
 }
 
 .section5 {
@@ -361,6 +338,10 @@ html {
 }
 .section7 .slideOur .item{
     width: 22.1875rem;
+    margin-left: 2.5rem;
+}
+.section7 .slideOurM .item{
+    width: 3.99306rem;
     margin-left: 2.5rem;
 }
 .section7 .listteam .item .info{
@@ -498,21 +479,23 @@ html {
 }
 .sectionM4 .btn {
     color: #FFF;
-    font-family: Inter;
-    font-size: 0.8125rem;
+    text-align: center;
+    font-family: Arial;
+    font-size: 0.625rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    background: linear-gradient(66deg, #00C3FD 25.98%, #0194FE 65.48%);
-    filter: drop-shadow(0px 16px 30px #003861);
-    padding: 0.9rem 3.7rem;
-    border-radius: 1rem;
+    border-radius: 1.46875rem;
+    background: linear-gradient(90deg, #EE3C76 0%, #AC1E49 100%);
+    box-shadow: 0px 16px 30px 0px #014678;
+    padding: 0.5rem 1.5rem;
     width: max-content;
 }
 .sectionM5  {
-    color: #FFF;
+    color: #EE3C76;
+    text-align: center;
     font-family: Inter;
-    font-size: 1.5rem;
+    font-size: 0.9375rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -520,11 +503,12 @@ html {
 }
 .sectionM6  {
     color: #FFF;
+    text-align: center;
     font-family: Inter;
-    font-size: 0.8125rem;
+    font-size: 0.625rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 136.3%; /* 1.10744rem */
+    line-height: 132.8%; /* 0.83rem */
 }
 .sectionM6 span {
     color: #0194FE;
@@ -623,8 +607,8 @@ html {
 
 }
 .sectionM20 .listteamMobile .item{
-    width: 12.75rem;
-    height: 23.625rem;
+    width: 10.75rem;
+    height: 13.25rem;
     margin: 0 1rem;
 }
 .sectionM20 .listteamMobile .item .info{
@@ -632,9 +616,8 @@ html {
 }
 .sectionM20 .listteamMobile .item .info .tit{
     color: #FFF;
-    text-align: center;
     font-family: Inter;
-    font-size: 1rem;
+    font-size: 0.625rem;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -643,13 +626,13 @@ html {
 }
 .sectionM20 .listteamMobile .item .info .job{
     color: #FFF;
-    text-align: center;
     font-family: Inter;
-    font-size: 0.75rem;
+    font-size: 0.375rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     opacity: 0.4;
+    margin-top: 1.44rem;
 }
 .sectionM22 {
     padding: 0.5rem;
@@ -665,7 +648,7 @@ html {
 }
 .menuMobile .listConnect{
     border-radius: 1.4375rem;
-    border: 2px solid #0194FE;
+    border: 2px solid #EE3C76;
     box-shadow: 0px 16px 30px 0px #014678;
     color: #FFF;
     font-family: Inter;
@@ -682,17 +665,17 @@ html {
 .menuMobile .listConnect .connect{
     padding: 0.87rem;
     border-radius: 1.4375rem;
-    background: linear-gradient(66deg, #00C3FD 25.98%, #0194FE 65.48%);
+    background:  linear-gradient(66deg, #EE3C76 25.98%, #AD1F4A 65.48%);
     filter: drop-shadow(0px 16px 30px #003861);
 }
-.listQA {
+.listQ {
 
 }
-.listQA .item{
+.listQ .item{
     position: relative;
     margin-top: 1rem;
 }
-.listQA .item .name{
+.listQ .item .name{
     color: #EE3C76;
     font-family: Inter;
     font-size: 1.5rem;
@@ -701,7 +684,7 @@ html {
     line-height: normal;
     letter-spacing: 0.03rem;
 }
-.listQA .item .desc{
+.listQ .item .desc{
     color: #FFF;
     font-family: Inter;
     font-size: 0.8125rem;
@@ -712,10 +695,43 @@ html {
     padding-left: 1.31rem;
     width: 95%;
 }
-.listQA .item .btnShow{
+.listQ .item .btnShow{
     position: absolute;
     top: 0;
     right: 0;
+}
+.listQAM .item{
+    position: relative;
+    padding-bottom: 1rem;
+    border-bottom: 0.0625rem solid white;
+}
+.listQAM .item .name{
+    color: #EE3C76;
+    text-align: center;
+    font-family: Inter;
+    font-size: 0.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.01rem;
+}
+.listQAM .item .desc{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 0.4375rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 120.944%; /* 0.52913rem */
+    letter-spacing: -0.00875rem;
+    margin-top: 0.3rem;
+}
+.listQAM .item .btnShow{
+    position: absolute;
+    top: -0.8rem;
+    right: 0;
+    width: 0.55581rem;
+    height: 2.8125rem;
 }
 .listPackage {
     display: flex;
@@ -747,6 +763,36 @@ html {
     line-height: 136%; /* 2.72rem */
     margin-top: 1.19rem;
 }
+.listPackageM {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+.listPackageM .item{
+    width: 5.19881rem;
+    height: 5.77644rem;
+}
+.listPackageM .item .name{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 0.3125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+    margin-top: 3.87rem;
+}
+.listPackageM .item .price{
+    color: #EE3C76;
+    text-align: center;
+    font-family: Inter;
+    font-size: 0.3125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 136%; /* 0.425rem */
+    margin-top: 0.27rem;
+}
 .sendTrans {
     margin-top: 14.13rem;
 }
@@ -770,6 +816,30 @@ html {
     width: 30.375rem;
     height: 5.625rem;
     padding-top: 1rem;
+}
+.sendTransM {
+    margin-top: 14.13rem;
+}
+.sendTransM .tit{
+    color: #E53871;
+    font-family: Inter;
+    font-size: 3.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    text-align: center;
+}
+.sendTransM .time{
+    color: #E53871;
+    font-family: Inter;
+    font-size: 0.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 16.8125rem;
+    height: 3rem;
+    padding-top: 0.5rem;
 }
 
 .fromTo {
@@ -809,6 +879,40 @@ html {
 .fromTo .balance{
     margin-top: 0.88rem;
 }
+
+.fromToM {
+    margin: auto;
+    margin-top: 4.31rem;
+}
+.fromToM .from{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 0.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.fromToM .from .name{
+
+}
+.fromToM .from .input{
+    margin-top: 0.66rem;
+    width: 16.8125rem;
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.75rem 1.44rem;
+    align-items: center;
+}
+.fromToM .from .input .total{
+
+}
+.fromToM .from .input img{
+    width: 1.4375rem;
+}
+.fromToM .balance{
+    margin-top: 0.88rem;
+}
 .btnList{
     margin: auto;
     margin-top: 6.94rem;
@@ -841,9 +945,83 @@ html {
     padding: 1.26rem;
     text-align: center;
 }
+.btnListM{
+    margin: auto;
+    margin-top: 1rem;
+    width: 14.0625rem;
+    text-align: center;
+}
+.btnListM .btnInvite{
+    color: #EA3B74;
+    font-family: Inter;
+    font-size: 0.5rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+.btnListM .btnBuy{
+    margin-top: 1.45rem;
+}
+.btnListM .btnBuy div{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 0.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 1.46875rem;
+    background: linear-gradient(90deg, #EE3C76 0%, #AC1E49 100%);
+    box-shadow: 0px 16px 30px 0px #014678;
+    width: 100%;
+    padding: 0.62rem;
+    text-align: center;
+}
 .byRaci {
     background: linear-gradient(90deg, #EE3C76 0%, #AC1E49 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.list-worksM {
+    justify-content: space-between;
+    border-radius: 1.25rem;
+    background: rgba(43, 101, 150, 0.27);
+    backdrop-filter: blur(25px);
+    width: 16.6875rem;
+    margin: auto;
+    margin-top: 1.44rem;
+}
+
+.list-worksM .item{
+    padding: 1.56rem;
+    display: flex;
+    gap: 1.12rem;
+}
+
+.list-worksM .item .number{
+    width: 2.75rem;
+    height: 2.8125rem;
+    background: radial-gradient(530.24% 219.84% at 57.14% 50.65%, #ED3C76 0%, #CF2E61 38.2%, #B1204D 100%);
+    filter: drop-shadow(0px 6px 30px #003861);
+    border-radius: 50%;
+}
+
+.list-worksM .item .tit{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 0.625rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    height: 1.0625rem;
+}
+.list-worksM .item .desc{
+    margin-top: 0.25rem;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 0.375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 136%; /* 0.51rem */
 }

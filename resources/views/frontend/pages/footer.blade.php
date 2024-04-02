@@ -18,6 +18,13 @@
             .request({ method: "eth_requestAccounts" });
     });
 
+    const connectEthButtonM = document.querySelector(".connectEthButtonM");
+
+    connectEthButtonM.addEventListener("click", async () => {
+        accounts = await window.ethereum // Or window.ethereum if you don't support EIP-6963.
+            .request({ method: "eth_requestAccounts" });
+    });
+
     const connectEthButtonFooter = document.querySelector(".connectEthButtonFooter");
 
     if (connectEthButtonFooter) {
@@ -83,6 +90,8 @@
 
                     document.getElementById('account').textContent = acc;
                     document.getElementById('connectwallet').textContent = 'Connected';
+                    document.getElementById('accountM').textContent = acc;
+                    document.getElementById('connectwalletM').textContent = 'Connected';
                 } catch (error) {
                     // console.error('Error fetching balance:', error);
                 }
@@ -92,7 +101,7 @@
         } else {
             // console.error('MetaMask is not installed!');
         }
-    },300)
+    },500)
 </script>
 </body>
 </html>
