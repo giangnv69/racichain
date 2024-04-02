@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="965145d7-a342-4ce9-80f7-98b3cdb1e8aa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/frontend/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/css/home.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/frontend/pages/buy.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/pages/buy.blade.php" afterDir="false" />
@@ -10,6 +11,10 @@
       <change beforePath="$PROJECT_DIR$/resources/views/frontend/pages/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/pages/header.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/frontend/pages/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/pages/home.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/frontend/pages/sendTrans.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/pages/sendTrans.blade.php" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/public/frontend/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/css/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/pages/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/pages/header.blade.php" afterDir="false" />
+>>>>>>> c0c0503623e2bf00aaeb1000581817873e8da2be
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,6 +42,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/resources/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
@@ -50,6 +56,12 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="725">
               <caret line="854" selection-start-line="831" selection-end-line="854" />
+=======
+        <entry file="file://$PROJECT_DIR$/resources/js/components/GetBalance.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="18" column="50" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="50" />
+>>>>>>> c0c0503623e2bf00aaeb1000581817873e8da2be
               <folding>
                 <element signature="e#207#241#0#HTML" expanded="true" />
                 <element signature="e#295#1415#0#HTML" />
@@ -64,11 +76,16 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/frontend/pages/headerM.blade.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="610">
               <caret line="152" column="37" selection-start-line="152" selection-start-column="37" selection-end-line="152" selection-end-column="37" />
               <folding>
                 <element signature="n#div#1;n#div#0;n#!!top" />
               </folding>
+=======
+            <state relative-caret-position="4215">
+              <caret line="281" column="64" selection-start-line="281" selection-start-column="64" selection-end-line="281" selection-end-column="64" />
+>>>>>>> c0c0503623e2bf00aaeb1000581817873e8da2be
             </state>
           </provider>
         </entry>
@@ -76,8 +93,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/frontend/pages/headerPC.blade.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="306">
               <caret line="18" column="109" selection-start-line="18" selection-start-column="90" selection-end-line="18" selection-end-column="109" />
+=======
+            <state relative-caret-position="150">
+              <caret line="10" column="120" selection-start-line="10" selection-start-column="120" selection-end-line="10" selection-end-column="120" />
+>>>>>>> c0c0503623e2bf00aaeb1000581817873e8da2be
             </state>
           </provider>
         </entry>
@@ -85,8 +107,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/frontend/css/home.css">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="198">
               <caret line="947" column="10" lean-forward="true" selection-start-line="947" selection-start-column="10" selection-end-line="947" selection-end-column="10" />
+=======
+            <state relative-caret-position="45">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+>>>>>>> c0c0503623e2bf00aaeb1000581817873e8da2be
             </state>
           </provider>
         </entry>
@@ -94,6 +121,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/frontend/pages/sendTrans.blade.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="2567">
               <caret line="357" column="63" selection-start-line="357" selection-start-column="63" selection-end-line="357" selection-end-column="63" />
               <folding>
@@ -102,6 +130,23 @@
                 <element signature="e#5529#5646#0#HTML" expanded="true" />
                 <element signature="e#8699#8821#0#HTML" expanded="true" />
               </folding>
+=======
+            <state relative-caret-position="18">
+              <caret line="310" column="72" selection-start-line="310" selection-start-column="30" selection-end-line="310" selection-end-column="72" />
+              <folding>
+                <element signature="e#2054#2079#0#HTML" expanded="true" />
+                <element signature="e#5025#18503#0#HTML" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.env">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+>>>>>>> c0c0503623e2bf00aaeb1000581817873e8da2be
             </state>
           </provider>
         </entry>
@@ -109,6 +154,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/frontend/pages/buy.blade.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="2490">
               <caret line="183" column="24" selection-start-line="183" selection-start-column="24" selection-end-line="183" selection-end-column="24" />
               <folding>
@@ -122,15 +168,27 @@
                 <element signature="e#6858#6980#0#HTML" expanded="true" />
                 <element signature="e#7282#7404#0#HTML" expanded="true" />
               </folding>
+=======
+            <state relative-caret-position="1410">
+              <caret line="94" column="9" selection-start-line="94" selection-start-column="9" selection-end-line="94" selection-end-column="9" />
+>>>>>>> c0c0503623e2bf00aaeb1000581817873e8da2be
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/frontend/pages/footer.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
               <caret line="20" column="72" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="72" />
+=======
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/frontend/pages/header.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+>>>>>>> c0c0503623e2bf00aaeb1000581817873e8da2be
             </state>
           </provider>
         </entry>
@@ -138,8 +196,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/frontend/pages/header.blade.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="425">
               <caret line="25" column="84" lean-forward="true" selection-start-line="25" selection-start-column="84" selection-end-line="25" selection-end-column="84" />
+=======
+            <state relative-caret-position="203">
+              <caret line="283" column="22" selection-start-line="283" selection-start-column="17" selection-end-line="283" selection-end-column="22" />
+>>>>>>> c0c0503623e2bf00aaeb1000581817873e8da2be
             </state>
           </provider>
         </entry>
@@ -148,6 +211,23 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
+<<<<<<< HEAD
+=======
+      <find>Start using</find>
+      <find>img</find>
+      <find>m9</find>
+      <find>slideImgDeva</find>
+      <find>Connect wallet</find>
+      <find>Tokenomics</find>
+      <find>BUY NOW</find>
+      <find>getAccoun</find>
+      <find>w3m-button</find>
+      <find>address</find>
+      <find>resources/js/</find>
+      <find>#EC1133</find>
+      <find>number</find>
+      <find>section</find>
+>>>>>>> c0c0503623e2bf00aaeb1000581817873e8da2be
       <find>listteam</find>
       <find>lottie</find>
       <find>profit</find>
@@ -160,6 +240,7 @@
       <find>time</find>
       <find>importToken</find>
       <find>What Sets</find>
+<<<<<<< HEAD
       <find>listConnect</find>
       <find>btn</find>
       <find>sectionM4</find>
@@ -178,6 +259,12 @@
       <find>btnList</find>
       <find>btnShow</find>
       <find>animProfit</find>
+=======
+      <find>balaceOf</find>
+      <find>balanceo</find>
+      <find>getBalaceRaci</find>
+      <find>inter</find>
+>>>>>>> c0c0503623e2bf00aaeb1000581817873e8da2be
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -198,7 +285,6 @@
         <option value="$PROJECT_DIR$/app/Models/Product.php" />
         <option value="$PROJECT_DIR$/resources/views/backend/pages/layout/home.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/backend/sub/list.blade.php" />
-        <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/database/seeds/UsersTableSeeder.php" />
         <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
         <option value="$PROJECT_DIR$/vite.config.js" />
@@ -212,18 +298,19 @@
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/IndexController.php" />
         <option value="$PROJECT_DIR$/resources/js/App.vue" />
-        <option value="$USER_HOME$/Desktop/testsign.html" />
+        <option value="$PROJECT_DIR$/../Desktop/testsign.html" />
         <option value="$PROJECT_DIR$/.babelrc" />
         <option value="$PROJECT_DIR$/resources/js/App.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/webpack.mix.js" />
-        <option value="$USER_HOME$/Downloads/sign-tx.html" />
+        <option value="$PROJECT_DIR$/../Downloads/sign-tx.html" />
         <option value="$PROJECT_DIR$/public/frontend/img/AnimationHeader.json" />
         <option value="$PROJECT_DIR$/resources/js/components/App.js" />
         <option value="$PROJECT_DIR$/resources/js/components/Example.js" />
         <option value="$PROJECT_DIR$/resources/js/components/ConnectWallet.js" />
         <option value="$PROJECT_DIR$/resources/js/components/GetBalance.js" />
         <option value="$PROJECT_DIR$/resources/js/app.js" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/resources/views/frontend/pages/header.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/frontend/pages/headerPC.blade.php" />
@@ -233,6 +320,17 @@
         <option value="$PROJECT_DIR$/resources/views/frontend/pages/sendTrans.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/frontend/pages/footer.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/frontend/pages/headerM.blade.php" />
+=======
+        <option value="$PROJECT_DIR$/resources/views/frontend/pages/buy.blade.php" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/resources/views/frontend/pages/home.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/frontend/pages/headerPC.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/frontend/pages/footer.blade.php" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/resources/views/frontend/pages/sendTrans.blade.php" />
+        <option value="$PROJECT_DIR$/public/frontend/css/home.css" />
+        <option value="$PROJECT_DIR$/resources/views/frontend/pages/header.blade.php" />
+>>>>>>> c0c0503623e2bf00aaeb1000581817873e8da2be
       </list>
     </option>
   </component>
@@ -340,10 +438,10 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1848" />
-    <option name="y" value="110" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="1615" />
+    <option name="y" value="170" />
+    <option name="width" value="1440" />
+    <option name="height" value="794" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -361,6 +459,27 @@
             <path>
               <item name="racichain" type="b2602c69:ProjectViewProjectNode" />
               <item name="racichain" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+=======
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="racichain" type="b2602c69:ProjectViewProjectNode" />
+              <item name="racichain" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="racichain" type="b2602c69:ProjectViewProjectNode" />
+              <item name="racichain" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="fonts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="racichain" type="b2602c69:ProjectViewProjectNode" />
+              <item name="racichain" type="462c0819:PsiDirectoryNode" />
+>>>>>>> c0c0503623e2bf00aaeb1000581817873e8da2be
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -393,6 +512,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="editor.config.ad.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -400,16 +520,16 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2018.3.6\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\web-coin-info\resources\js" />
+      <recent name="C:\xampp\htdocs\web-thien\public\frontend" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="C:\xampp74\htdocs\web-coin-info\resources\views\frontend\pages" />
       <recent name="C:\xampp74\htdocs\web-coin-info\public\frontend\img" />
       <recent name="C:\xampp74\htdocs\web-coin-info\resources\js\components" />
       <recent name="C:\xampp74\htdocs\web-coin-info\public\frontend\fonts" />
-      <recent name="C:\xampp\htdocs\web-coin-info\resources" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\web-coin-info\resources\js" />
-      <recent name="C:\xampp\htdocs\web-thien\public\frontend" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -456,20 +576,34 @@
       <workItem from="1711594626380" duration="9516000" />
       <workItem from="1711769988947" duration="1570000" />
       <workItem from="1711876468460" duration="14311000" />
+<<<<<<< HEAD
       <workItem from="1711906709878" duration="1028000" />
       <workItem from="1712072977409" duration="10398000" />
+=======
+      <workItem from="1711906709878" duration="959000" />
+      <workItem from="1711941860941" duration="5118000" />
+>>>>>>> c0c0503623e2bf00aaeb1000581817873e8da2be
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="173615000" />
+=======
+    <option name="totallyTimeSpent" value="168266000" />
+>>>>>>> c0c0503623e2bf00aaeb1000581817873e8da2be
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="119" width="1936" height="1056" extended-state="6" />
+    <frame x="1440" y="25" width="1920" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
+<<<<<<< HEAD
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6977248" visible="true" weight="0.11247335" />
       <window_info id="Structure" order="1" sideWeight="0.30227518" side_tool="true" visible="true" weight="0.11247335" />
+=======
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6975749" visible="true" weight="0.20021299" />
+      <window_info id="Structure" order="1" sideWeight="0.30285713" side_tool="true" weight="0.26895565" />
+>>>>>>> c0c0503623e2bf00aaeb1000581817873e8da2be
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="0" />
@@ -484,7 +618,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32936078" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="12" weight="0.283857" />
+      <window_info anchor="bottom" id="Terminal" order="12" visible="true" weight="0.20689656" />
       <window_info anchor="bottom" id="TypeScript" order="13" />
       <window_info anchor="bottom" id="Command Line Tools Console" order="14" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -507,8 +641,11 @@
     </option>
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/resources/views/errors/layout.blade.php" />
     <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php" />
+=======
+>>>>>>> c0c0503623e2bf00aaeb1000581817873e8da2be
     <entry file="file://$PROJECT_DIR$/resources/views/home2.blade.php" />
     <entry file="file://$PROJECT_DIR$/public/uploads/1681280854-cropped-dc-logo-2-2-2@2x.png" />
     <entry file="file://$PROJECT_DIR$/public/robots.txt">
@@ -581,57 +718,12 @@
     <entry file="file://$PROJECT_DIR$/public/frontend/img/smartcontract5.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/@web3modal/wagmi/dist/esm/exports/react/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/@web3modal/wagmi/dist/types/exports/vue.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#69#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/@web3modal/wagmi/dist/esm/exports/vue.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/testsign.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="749">
-          <caret line="68" column="7" selection-start-line="68" selection-start-column="7" selection-end-line="68" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/@web3modal/wagmi/dist/types/exports/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="59" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="59" />
-          <folding>
-            <element signature="e#0#69#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/@web3modal/wagmi/dist/types/src/client.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@web3modal/wagmi/dist/esm/exports/react/index.js" />
+    <entry file="file://$PROJECT_DIR$/node_modules/@web3modal/wagmi/dist/types/exports/vue.d.ts" />
+    <entry file="file://$PROJECT_DIR$/node_modules/@web3modal/wagmi/dist/esm/exports/vue.js" />
+    <entry file="file://$PROJECT_DIR$/../Desktop/testsign.html" />
+    <entry file="file://$PROJECT_DIR$/node_modules/@web3modal/wagmi/dist/types/exports/index.d.ts" />
+    <entry file="file://$PROJECT_DIR$/node_modules/@web3modal/wagmi/dist/types/src/client.d.ts" />
     <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -646,13 +738,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/@wagmi/core/dist/types/exports/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="10" selection-start-line="9" selection-end-line="9" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@wagmi/core/dist/types/exports/index.d.ts" />
     <entry file="file://$PROJECT_DIR$/public/frontend/img/package1.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -697,13 +783,7 @@
     <entry file="file://$PROJECT_DIR$/resources/js/components/SendTransaction.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/sign-tx.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="12" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../Downloads/sign-tx.html" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -762,16 +842,23 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/resources/views/frontend/pages/header.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="25" column="84" lean-forward="true" selection-start-line="25" selection-start-column="84" selection-end-line="25" selection-end-column="84" />
+=======
+    <entry file="file://$PROJECT_DIR$/resources/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+>>>>>>> c0c0503623e2bf00aaeb1000581817873e8da2be
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/js/components/GetBalance.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
+        <state relative-caret-position="255">
           <caret line="18" column="50" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="50" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
@@ -779,6 +866,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/resources/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -822,11 +910,53 @@
             <element signature="e#27749#27868#0#HTML" expanded="true" />
             <element signature="e#50324#50442#0#HTML" expanded="true" />
           </folding>
+=======
+    <entry file="file://$PROJECT_DIR$/resources/views/frontend/pages/home.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4215">
+          <caret line="281" column="64" selection-start-line="281" selection-start-column="64" selection-end-line="281" selection-end-column="64" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/frontend/pages/headerPC.blade.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="120" selection-start-line="10" selection-start-column="120" selection-end-line="10" selection-end-column="120" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/frontend/pages/buy.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/frontend/pages/footer.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1410">
+          <caret line="94" column="9" selection-start-line="94" selection-start-column="9" selection-end-line="94" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="4369" column="4" selection-start-line="4369" selection-start-column="4" selection-end-line="4369" selection-end-column="4" />
+>>>>>>> c0c0503623e2bf00aaeb1000581817873e8da2be
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/frontend/pages/sendTrans.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="306">
           <caret line="18" column="109" selection-start-line="18" selection-start-column="90" selection-end-line="18" selection-end-column="109" />
         </state>
@@ -843,10 +973,25 @@
             <element signature="e#8699#8821#0#HTML" expanded="true" />
           </folding>
         </state>
+=======
+        <state relative-caret-position="18">
+          <caret line="310" column="72" selection-start-line="310" selection-start-column="30" selection-end-line="310" selection-end-column="72" />
+          <folding>
+            <element signature="e#2054#2079#0#HTML" expanded="true" />
+            <element signature="e#5025#18503#0#HTML" />
+          </folding>
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/frontend/pages/footer.blade.php">
+    <entry file="file://$PROJECT_DIR$/public/frontend/fonts/Roboto-Regular.woff2">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1" />
+>>>>>>> c0c0503623e2bf00aaeb1000581817873e8da2be
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/frontend/css/home.css">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="340">
           <caret line="20" column="72" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="72" />
         </state>
@@ -859,6 +1004,17 @@
           <folding>
             <element signature="n#div#1;n#div#0;n#!!top" />
           </folding>
+=======
+        <state relative-caret-position="203">
+          <caret line="283" column="22" selection-start-line="283" selection-start-column="17" selection-end-line="283" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/frontend/pages/header.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+>>>>>>> c0c0503623e2bf00aaeb1000581817873e8da2be
         </state>
       </provider>
     </entry>

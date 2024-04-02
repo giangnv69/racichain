@@ -31,7 +31,7 @@
                     </div>
                     <div class="input" style="background: url('public/frontend/img/new/time.png');background-repeat: no-repeat; background-size: 100% 100%;">
                         <div class="total">
-                            {{ @$_GET['bnb'] }}
+                            <input type="text" style="background: black" name="bnb" value="{{ @$_GET['bnb'] }}">
                         </div>
                         <img src="public/frontend/img/new/iconBNB.png" alt="">
                     </div>
@@ -135,7 +135,7 @@
                         From
                     </div>
                     <div class="total">
-                        {{ @$_GET['bnb'] }}
+                        <input type="text" style="background: black" name="bnbM" value="{{ @$_GET['bnb'] }}">
                     </div>
                     <img src="public/frontend/img/new/iconBNB.png" alt="">
                 </div>
@@ -168,10 +168,10 @@
                 </div>
             </div>
             <div class="btnBuy">
-                <div class="cursor-pointer sendEthButton">
+                <div class="cursor-pointer sendEthButtonM">
                     BUY
                 </div>
-                <div class="mt-[1.37rem] cursor-pointer" id="account2">
+                <div class="mt-[1.37rem] cursor-pointer" id="account2M">
                     Not Connect
                 </div>
             </div>
@@ -215,20 +215,20 @@
 
         let accounts = [];
 
-        const tokenAddress = '0x8b2e3378f52e7bc58259c538d790b9ebe2063431';
+        const tokenAddress = '0x8b2E3378f52E7bC58259C538D790B9EBE2063431';
 
         const sendEthButton = document.querySelector(".sendEthButton");
         // Send Ethereum to an address.
         sendEthButton.addEventListener("click", async () => {
-            send()
+            send('bnb')
         });
 
         const sendEthButtonM = document.querySelector(".sendEthButtonM");
         // Send Ethereum to an address.
         sendEthButtonM.addEventListener("click", async () => {
-            send()
+            send('bnbM')
         });
-        function send() {
+        function send(input) {
             const provider = window.ethereum;
 
             // Lấy thông tin mạng hiện tại
@@ -238,12 +238,13 @@
                     const chainIdDecimal = parseInt(chainId, 16);
 
                     // Log mạng hiện tại
-                    console.log('Current network chainId:', chainId);
-                    console.log('Current network decimal:', chainIdDecimal);
+                    // console.log('Current network chainId:', chainId);
+                    // console.log('Current network decimal:', chainIdDecimal);
 
                     // Tùy thuộc vào mã chainId, bạn có thể so sánh để xác định mạng cụ thể
                     if (chainId === '0x38' || chainId === '0x61') {
-                        const yourNumber = {{ $_GET['bnb'] }} * 1000000000000000000
+                        let bnb = $('input[name="' + input + '"]').val()
+                        const yourNumber = bnb * 1000000000000000000
                         accounts = await window.ethereum // Or window.ethereum if you don't support EIP-6963.
                             .request({ method: "eth_requestAccounts" });
                         window.ethereum // Or window.ethereum if you don't support EIP-6963.
@@ -317,11 +318,10 @@
                 console.log(error);
             }
         })
-        function getBalaceRaci(accountAddress){
+
+        async function getBalaceRaci(accountAddress){
             const tokenContractAddress = tokenAddress;
-            const tokenABI = [
-                [{"inputs":[{"internalType":"uint256","name":"initialSupply","type":"uint256"}],"stateMutability":"nonpayable","type":"constructor"},{"inputs":[{"internalType":"address","name":"spender","type":"address"},{"internalType":"uint256","name":"allowance","type":"uint256"},{"internalType":"uint256","name":"needed","type":"uint256"}],"name":"ERC20InsufficientAllowance","type":"error"},{"inputs":[{"internalType":"address","name":"sender","type":"address"},{"internalType":"uint256","name":"balance","type":"uint256"},{"internalType":"uint256","name":"needed","type":"uint256"}],"name":"ERC20InsufficientBalance","type":"error"},{"inputs":[{"internalType":"address","name":"approver","type":"address"}],"name":"ERC20InvalidApprover","type":"error"},{"inputs":[{"internalType":"address","name":"receiver","type":"address"}],"name":"ERC20InvalidReceiver","type":"error"},{"inputs":[{"internalType":"address","name":"sender","type":"address"}],"name":"ERC20InvalidSender","type":"error"},{"inputs":[{"internalType":"address","name":"spender","type":"address"}],"name":"ERC20InvalidSpender","type":"error"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"owner","type":"address"},{"indexed":true,"internalType":"address","name":"spender","type":"address"},{"indexed":false,"internalType":"uint256","name":"value","type":"uint256"}],"name":"Approval","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"from","type":"address"},{"indexed":true,"internalType":"address","name":"to","type":"address"},{"indexed":false,"internalType":"uint256","name":"value","type":"uint256"}],"name":"Transfer","type":"event"},{"inputs":[{"internalType":"address","name":"owner","type":"address"},{"internalType":"address","name":"spender","type":"address"}],"name":"allowance","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"spender","type":"address"},{"internalType":"uint256","name":"value","type":"uint256"}],"name":"approve","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"account","type":"address"}],"name":"balanceOf","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"decimals","outputs":[{"internalType":"uint8","name":"","type":"uint8"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"name","outputs":[{"internalType":"string","name":"","type":"string"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"symbol","outputs":[{"internalType":"string","name":"","type":"string"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"totalSupply","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"to","type":"address"},{"internalType":"uint256","name":"value","type":"uint256"}],"name":"transfer","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"from","type":"address"},{"internalType":"address","name":"to","type":"address"},{"internalType":"uint256","name":"value","type":"uint256"}],"name":"transferFrom","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"nonpayable","type":"function"}]
-            ];
+            const tokenABI = [{"inputs":[{"internalType":"uint256","name":"initialSupply","type":"uint256"}],"stateMutability":"nonpayable","type":"constructor"},{"inputs":[{"internalType":"address","name":"spender","type":"address"},{"internalType":"uint256","name":"allowance","type":"uint256"},{"internalType":"uint256","name":"needed","type":"uint256"}],"name":"ERC20InsufficientAllowance","type":"error"},{"inputs":[{"internalType":"address","name":"sender","type":"address"},{"internalType":"uint256","name":"balance","type":"uint256"},{"internalType":"uint256","name":"needed","type":"uint256"}],"name":"ERC20InsufficientBalance","type":"error"},{"inputs":[{"internalType":"address","name":"approver","type":"address"}],"name":"ERC20InvalidApprover","type":"error"},{"inputs":[{"internalType":"address","name":"receiver","type":"address"}],"name":"ERC20InvalidReceiver","type":"error"},{"inputs":[{"internalType":"address","name":"sender","type":"address"}],"name":"ERC20InvalidSender","type":"error"},{"inputs":[{"internalType":"address","name":"spender","type":"address"}],"name":"ERC20InvalidSpender","type":"error"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"owner","type":"address"},{"indexed":true,"internalType":"address","name":"spender","type":"address"},{"indexed":false,"internalType":"uint256","name":"value","type":"uint256"}],"name":"Approval","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"from","type":"address"},{"indexed":true,"internalType":"address","name":"to","type":"address"},{"indexed":false,"internalType":"uint256","name":"value","type":"uint256"}],"name":"Transfer","type":"event"},{"inputs":[{"internalType":"address","name":"owner","type":"address"},{"internalType":"address","name":"spender","type":"address"}],"name":"allowance","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"spender","type":"address"},{"internalType":"uint256","name":"value","type":"uint256"}],"name":"approve","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"account","type":"address"}],"name":"balanceOf","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"decimals","outputs":[{"internalType":"uint8","name":"","type":"uint8"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"name","outputs":[{"internalType":"string","name":"","type":"string"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"symbol","outputs":[{"internalType":"string","name":"","type":"string"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"totalSupply","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"to","type":"address"},{"internalType":"uint256","name":"value","type":"uint256"}],"name":"transfer","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"from","type":"address"},{"internalType":"address","name":"to","type":"address"},{"internalType":"uint256","name":"value","type":"uint256"}],"name":"transferFrom","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"nonpayable","type":"function"}];
 
             if (window.ethereum) {
                 const web3 = new Web3(window.ethereum);
@@ -330,18 +330,16 @@
                 const tokenContract = new web3.eth.Contract(tokenABI, tokenContractAddress);
 
                 // Sử dụng phương thức balanceOf của hợp đồng token để lấy số dư của token
-                tokenContract.events.Transfer({ filter: { to: accountAddress } })
-                    .on('data', event => {
-                        console.log('Transfer event:', event);
-                        // Cập nhật số dư token
-                        document.getElementById('tokenBalance').textContent = event.returnValues.value;
-                    })
-                    .on('error', error => {
-                        console.error('Transfer event error:', error);
-                    });
-                console.log(123321)
+                try {
+                    // Gọi phương thức balanceOf của hợp đồng token và đợi kết quả
+                    const balance = await tokenContract.methods.balanceOf(accountAddress).call();
+                    document.getElementById('tokenBalance').textContent = balance / 1000000000000000000;
+                } catch (error) {
+                    // console.error('Error:', error);
+                }
+
             } else {
-                console.error('MetaMask is not installed!');
+                // console.error('MetaMask is not installed!');
             }
         }
         setInterval(async () => {
@@ -364,6 +362,7 @@
                         document.getElementById('account2').textContent = acc;
                         document.getElementById('connectwallet').textContent = 'Connected';
                         document.getElementById('accountM').textContent = acc;
+                        document.getElementById('account2M').textContent = acc;
                         document.getElementById('connectwalletM').textContent = 'Connected';
 
                         // Khởi tạo Web3 provider từ MetaMask

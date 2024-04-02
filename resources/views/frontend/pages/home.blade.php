@@ -416,7 +416,7 @@
                 </svg>
             </div>
         </div>
-        <div class="btnInvite m-auto mt-[4.44rem]" data-aos="fade-up">
+        <div class="btnInvite m-auto mt-[4.44rem] inviteLink" data-aos="fade-up" onclick="copyToClipboard()" link="">
             MAKE YOUR LINK INVITE
         </div>
         <div class="section8 mt-[6.94rem] pb-[4rem]" style="background: url('public/frontend/img/new/bgfooter.png');background-repeat: no-repeat; background-size: 100% 100%;">
@@ -825,7 +825,7 @@
                 </svg>
             </div>
         </div>
-        <div class="m-auto btnBuyNow mt-[6.17rem]" onclick="location.href='buy-now';">
+        <div class="m-auto btnBuyNow mt-[6.17rem] inviteLink" onclick="copyToClipboard()" link="">
             MAKE YOUR LINK INVITE
         </div>
 
@@ -943,6 +943,17 @@
             let parent = $(this).parent('.item')
             parent.find('.desc').toggle()
         })
+        function copyToClipboard() {
+            var $temp = $("<input>");
+            $("body").append($temp);
+            $temp.val($(".inviteLink").attr('link')).select();
+            document.execCommand("copy");
+            $temp.remove();
+            Toastify({
+                text: "Coppied link invite success!",
+            }).showToast();
+        }
+
     </script>
 
 @include('frontend.pages.footer')

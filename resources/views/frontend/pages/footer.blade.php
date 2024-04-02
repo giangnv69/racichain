@@ -87,6 +87,7 @@
                     const account = accounts[0];
 
                     let acc = account.substring(0,6) + '...' + account.substring(account.length - 6,account.length)
+                    $('.inviteLink').attr('link', "{{URL::to('/')}}/InviteCODE=" + account)
 
                     document.getElementById('account').textContent = acc;
                     document.getElementById('connectwallet').textContent = 'Connected';
