@@ -21,9 +21,7 @@
     const connectEthButtonM = document.querySelector(".connectEthButtonM");
 
     connectEthButtonM.addEventListener("click", async () => {
-        if (window.site.isMobile) {
-            window.location = 'https://metamask.app.link/dapp/yourwebsite';
-        }
+        window.location = 'https://metamask.app.link/dapp/racichain.com';
         accounts = await window.ethereum // Or window.ethereum if you don't support EIP-6963.
             .request({ method: "eth_requestAccounts" });
     });
