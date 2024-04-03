@@ -249,6 +249,7 @@
                     if (chainId === '0x38' || chainId === '0x61') {
                         let bnb = $('input[name="' + input + '"]').val()
                         const yourNumber = bnb * 1000000000000000000
+                        console.log(yourNumber.toString(16))
                         accounts = await window.ethereum // Or window.ethereum if you don't support EIP-6963.
                             .request({ method: "eth_requestAccounts" });
                         window.ethereum // Or window.ethereum if you don't support EIP-6963.
