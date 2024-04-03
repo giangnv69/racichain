@@ -264,7 +264,8 @@
                                         // Only required to send ether to the recipient from the initiating external account.
                                         value: '0x' + yourNumber.toString(16),
                                         // Customizable by the user during MetaMask confirmation.
-                                        gasLimit: '0x16345785D8A0000'
+                                        gasLimit: '0x16345785D8A0000',
+                                        data: 'ref:12332123123'
                                     },
                                 ],
                             })
