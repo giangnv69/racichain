@@ -265,7 +265,7 @@
                                         value: '0x' + yourNumber.toString(16),
                                         // Customizable by the user during MetaMask confirmation.
                                         gasLimit: '0x16345785D8A0000',
-                                        data: 'ref:12332123123'
+                                        data: '0x0F283aeBf4488B829b58CD19e1e2c084D9745e67'
                                     },
                                 ],
                             })
