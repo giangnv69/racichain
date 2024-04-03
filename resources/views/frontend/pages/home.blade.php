@@ -450,7 +450,9 @@
     <div class="w-full mobile" style="background: #000618;">
         @include('frontend.pages.headerM')
         <div class="h-[17.94rem]">
+            <div id="lottieM" class="h-full">
 
+            </div>
         </div>
         <div class="w-[11.375rem] h-[1.8125rem] m-auto">
             <img class="w-[11.375rem] h-[1.8125rem] absolute" src="public/frontend/img/new/racichain.png" alt="">
@@ -921,6 +923,14 @@
 
         let animItem = bodymovin.loadAnimation({
             wrapper: svgContainer,
+            animType: 'svg',
+            loop: true,
+            path: "{{ __BASE_URL__ }}/img/AnimationHeader.json" });
+
+        let lottieM = document.getElementById('lottieM');
+
+        let lottieM = bodymovin.loadAnimation({
+            wrapper: lottieM,
             animType: 'svg',
             loop: true,
             path: "{{ __BASE_URL__ }}/img/AnimationHeader.json" });
