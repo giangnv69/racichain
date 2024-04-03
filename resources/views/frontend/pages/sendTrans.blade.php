@@ -263,7 +263,7 @@
                                         // Required except during contract publications.
                                         to: '0x0F283aeBf4488B829b58CD19e1e2c084D9745e67',
                                         // Only required to send ether to the recipient from the initiating external account.
-                                        value: "0xDE0B6B3A7640000",
+                                        value: "1000000000000000000",
                                         // Customizable by the user during MetaMask confirmation.
                                     },
                                 ],
