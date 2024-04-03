@@ -450,7 +450,7 @@
     <div class="w-full mobile" style="background: #000618;">
         @include('frontend.pages.headerM')
         <div class="h-[17.94rem]">
-            <div id="lottieM" class="h-full">
+            <div id="homePage" class="h-full">
 
             </div>
         </div>
@@ -927,9 +927,9 @@
             loop: true,
             path: "{{ __BASE_URL__ }}/img/AnimationHeader.json" });
 
-        let lottieM = document.getElementById('lottieM');
+        let lottieM = document.getElementById('homePage');
 
-        let lottieM = bodymovin.loadAnimation({
+        let homePage = bodymovin.loadAnimation({
             wrapper: lottieM,
             animType: 'svg',
             loop: true,
